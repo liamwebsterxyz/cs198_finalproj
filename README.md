@@ -1,2 +1,6 @@
-# cs198_finalproj
-This is our final project for UC Berkeley's CS198: Introduction to Quantative Finance course. We plan to  build a model focused statistical arbitrage of the S&P500.
+# CS198: Final Project
+Our team's final project in the Introduction to Quantitative Finance course at UC Berkeley focuses on the development of a statistical arbitrage strategy based on a mean-reverting jump-diffusion model[1]. We implement this strategy on high-frequency data of the S&P 500 constituents, collected from January-TODO to December-TODO, with the aim of identifying overnight price gaps and exploiting temporary market anomalies within the first few minutes of a trading day. Our approach first confirms the existence of the mean-reverting property, which is particularly significant 120 minutes after market opening. Through empirical back-testing, we demonstrate that our strategy delivers significant annual returns of TODO percent after transaction costs, with an annualized Sharpe ratio of TODO. Additionally, our strategy outperforms existing quantitative strategies within the same research area, as demonstrated by a benchmarking analysis. Finally, our analysis shows that our strategy is consistently profitable and robust against drawdowns, even in recent years.
+
+## References
+<a id="1">[1]</a> 
+Stübinger J, Schneider L. Statistical Arbitrage with Mean-Reverting Overnight Price Gaps on High-Frequency Data of the S&P 500. Journal of Risk and Financial Management. 2019; 12(2):51. https://doi.org/10.3390/jrfm12020051
